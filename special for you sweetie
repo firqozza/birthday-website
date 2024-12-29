@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Meyy!</title>
+    <style>
+        body {
+            background-color: #ffe6f2;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffccdf;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            color: #d63384;
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            margin: 15px 0;
+        }
+
+        .interactive {
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #ff80b3;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #e6739f;
+        }
+
+        footer {
+            background-color: #ffccdf;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 0;
+            color: #d63384;
+        }
+
+        .lilies {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: auto;
+            opacity: 0.1;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Happy Birthday, Meyy! ✨</h1>
+    </header>
+
+    <img class="lilies" src="https://example.com/lilies-background.jpg" alt="Lilies background"> <!-- Replace with actual image URL -->
+
+    <div class="content">
+        <p>❤ Happy Birthday to my lovely sweet gorgeous girl, Mey Cukcamm! ❤</p>
+        <p>Today, the world is brighter because YOU were born.</p>
+        <p>❤ Every moment with you is a gift, and I'm beyond grateful for the light you bring into my life.</p>
+        <p>❤ On this special day, I want to remind you of the incredible, loving soul you are.</p>
+        <p>❤ Your laughter is a melody that makes everything feel just a little bit sweeter.</p>
+
+        <div class="interactive">
+            <p>Would you like to hear a magical birthday message?</p>
+            <button onclick="playMessage()">Yes</button>
+        </div>
+
+        <p>❤ You are a rare diamond, a shining star whose beauty goes far beyond what the eye can see.</p>
+        <p>❤ I hope your day is filled with everything that makes your heart dance with joy.</p>
+        <p>❤ Here's my little wish for you: May your life be as wonderful and beautiful as you are.</p>
+        <p>❤ And no matter where life takes you, know that I'll always be here, cheering you on with all my love.</p>
+        <p>❤ Once more, Happy Birthday, Meyy. Let's make today unforgettable, filled with laughter, love, and magic!</p>
+    </div>
+
+    <footer>
+        <p>With love, from [Your Name]</p>
+    </footer>
+
+    <script>
+        function playMessage() {
+            const audio = new Audio('https://example.com/birthday-message.mp3'); // Replace with your audio file URL
+            audio.play();
+        }
+    </script>
+</body>
+</html>
